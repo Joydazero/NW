@@ -1,0 +1,62 @@
+[
+  {
+    "id": "aHR0cHM6Ly9hcnN0",
+    "category": "IT",
+    "korean_title": "Google은 검증되지 않은 Android 앱을 사이드로드하기 위한 새로운 24시간 프로세스를 자세히 설명합니다.",
+    "original_title": "Google details new 24-hour process to sideload unverified Android apps",
+    "summary": "이 기능을 활성화하는 실제 발품 작업은 몇 초 밖에 걸리지 않지만 24시간 카운트다운으로 인해 순간적으로는 할 수 없습니다. 그런데 왜 24시간일까요? Samat에 따르면 이는 사기꾼이 피해자에게 심각한 결과를 피하기 위해 즉시 앱을 설치해야 한다고 설득하는 사회 공학 공격의 증가하는 사용에 맞서기 위해 설계되었습니다.",
+    "tags": [
+      "Google",
+      "Google",
+      "Google"
+    ],
+    "source": "arstechnica.com",
+    "source_url": "https://arstechnica.com/gadgets/2026/03/google-details-new-24-hour-process-to-sideload-unverified-android-apps/",
+    "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/developer-identity-hero-1152x648.jpg",
+    "created_at": "2026-03-20T10:12:08.720Z"
+  },
+  {
+    "id": "aHR0cHM6Ly9heW9z",
+    "category": "IT",
+    "korean_title": "FFmpeg용 drawvg 필터",
+    "original_title": "drawvg filter for FFmpeg",
+    "summary": "drawvg는 비디오 프레임 위에 벡터 그래픽을 렌더링하기 위해 8.1부터 사용할 수 있는 FFmpeg 필터입니다. 렌더링은 VGS(벡터 그래픽 스크립트)라는 자체 언어로 작성된 스크립트를 실행하여 수행됩니다. 스크립트는 Cairo 라이브러리를 사용하여 래스터화되는 2D 그래픽을 설명하는 일련의 명령으로 구성됩니다.",
+    "tags": [
+      "VGS",
+      "사용자 정의 전환 또 다른 방법",
+      "카이로 도서관."
+    ],
+    "source": "ayosec.github.io",
+    "source_url": "https://ayosec.github.io/ffmpeg-drawvg/",
+    "thumbnail": "",
+    "created_at": "2026-03-20T10:12:11.828Z"
+  },
+  {
+    "id": "aHR0cHM6Ly9jb2Rl",
+    "category": "IT",
+    "korean_title": "채널을 사용하여 실행 중인 세션에 이벤트 푸시 - Claude Code Docs",
+    "original_title": "Push events into a running session with channels - Claude Code Docs",
+    "summary": "답변은 AI를 사용해 생성되므로 실수가 포함될 수 있습니다.",
+    "tags": [],
+    "source": "code.claude.com",
+    "source_url": "https://code.claude.com/docs/en/channels",
+    "thumbnail": "https://claude-code.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DAutomation%26appearance%3Dsystem%26title%3DPush%2Bevents%2Binto%2Ba%2Brunning%2Bsession%2Bwith%2Bchannels%26description%3DUse%2Bchannels%2Bto%2Bpush%2Bmessages%252C%2Balerts%252C%2Band%2Bwebhooks%2Binto%2Byour%2BClaude%2BCode%2Bsession%2Bfrom%2Ban%2BMCP%2Bserver.%2BForward%2BCI%2Bresults%252C%2Bchat%2Bmessages%252C%2Band%2Bmonitoring%2Bevents%2Bs%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fc5r9_6tjPMzFdDDT%252Flogo%252Flight.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dc5r9_6tjPMzFdDDT%2526q%253D85%2526s%253D78fd01ff4f4340295a4f66e2ea54903c%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fc5r9_6tjPMzFdDDT%252Flogo%252Fdark.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dc5r9_6tjPMzFdDDT%2526q%253D85%2526s%253D1298a0c3b3a1da603b190d0de0e31712%26primaryColor%3D%25230E0E0E%26lightColor%3D%2523D4A27F%26darkColor%3D%25230E0E0E%26backgroundLight%3D%2523FDFDF7%26backgroundDark%3D%252309090B&w=1200&q=100",
+    "created_at": "2026-03-20T10:12:14.277Z"
+  },
+  {
+    "id": "aHR0cHM6Ly90cnVz",
+    "category": "IT",
+    "korean_title": "전체 공개: 세 번째(및 네 번째) Azure 로그인 로그 우회가 발견되었습니다.",
+    "original_title": "Full Disclosure: A Third (and Fourth) Azure Sign-In Log Bypass Found",
+    "summary": "보이지 않는 비밀번호 스프레이. 보이지 않는 로그인. 전체 토큰이 반환되었습니다.",
+    "tags": [
+      "마이크로소프트",
+      "마이크로소프트",
+      "CNA"
+    ],
+    "source": "trustedsec.com",
+    "source_url": "https://trustedsec.com/blog/full-disclosure-a-third-and-fourth-azure-sign-in-log-bypass-found",
+    "thumbnail": "https://trusted-sec.transforms.svdcdn.com/production/images/Blog-Covers/GraphGoblinAzureLoggingBypass_SEO.jpg?w=1200&h=630&q=82&auto=format&fit=crop&dm=1773775732&s=9e6e76af63714e7757fe4ae6389c0782",
+    "created_at": "2026-03-20T10:12:19.744Z"
+  }
+]
