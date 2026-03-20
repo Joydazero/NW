@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest --watchAll=false",
+    "test": "jest --watchAll=false --passWithNoTests",
     "test:watch": "jest --watch"
   },
   "dependencies": {
