@@ -128,6 +128,30 @@ async function processArticles(articles, category = 'IT') {
 async function main() {
   console.log("Starting Unified Engine...");
   
+  const fs = require('fs');
+  const path = require('path');
+  const dataPath = path.join(__dirname, '../src/data/it.json');
+
+  // 1. 기존 데이터 읽어오기
+  let existingArticles = [];
+  try {
+    if (fs.existsSync(dataPath)) {
+      existingArticles = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    }
+  } catch (e) {
+    console.error("Failed to read existing data:", e.message);
+  }
+
+  // 2. 시간 상수 설정 (2일 경과 데이터 삭제)
+  const TWO_DAYS_MS = 2 * 24 * 60 * 60 * 1000;
+  const now = new Date().getTime();
+
+  console.log("Cleaning old data and processing new tech news...");
+  const filteredExisting = existingArticles.filter(article => {
+    const createdAt = new Date(article.created_at).getTime();
+    return (now - createdAt) < TWO_DAYS_MS;
+  });
+
   const [hn, devto, tc, smash] = await Promise.all([
     fetchHackerNews(7),
     fetchDevTo(5),
@@ -137,18 +161,25 @@ async function main() {
 
   let allArticles = [...hn, ...devto, ...tc, ...smash];
   
-  // Need ~25 items to process
-  allArticles = allArticles.slice(0, 25);
-  console.log(`Gathered ${allArticles.length} articles to process.`);
+  // 중복 데이터 처리 스킵: 이미 수집된 URL은 파싱 및 변환하지 않음
+  const existingUrls = new Set(filteredExisting.map(a => a.source_url));
+  const newRawArticles = allArticles.filter(a => !existingUrls.has(a.link));
 
-  const processedData = await processArticles(allArticles);
+  console.log(`Found ${allArticles.length} total URLs, fetching new ${newRawArticles.length} articles...`);
 
-  const fs = require('fs');
-  const path = require('path');
-  const dataPath = path.join(__dirname, '../src/data/it.json');
+  // 3. 신규 데이터 처리 (NLP 요약 및 0원 번역)
+  const processedData = await processArticles(newRawArticles);
+
+  // 4. 데이터 합치기 및 중복 제거 (URL 기준)
+  const combined = [...processedData, ...filteredExisting];
+  const finalData = Array.from(new Map(combined.map(item => [item.source_url, item])).values());
   
-  fs.writeFileSync(dataPath, JSON.stringify(processedData, null, 2));
-  console.log(`Finished. Saved ${processedData.length} articles to it.json`);
+  // 5. 정렬 (최신순 유지용, 여기서 해두면 좋음)
+  finalData.sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
+
+  // 6. 저장
+  fs.writeFileSync(dataPath, JSON.stringify(finalData, null, 2));
+  console.log(`Finished. Saved ${finalData.length} articles to it.json`);
 }
 
 if (require.main === module) {

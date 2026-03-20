@@ -1,26 +1,48 @@
 @import "tailwindcss";
 
+/* Pretendard - 저작권 이슈 없는 오픈소스 한글 폰트 */
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css');
+
+/* ─── 기본(라이트) ─── */
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #111827;
 }
 
+/* ─── 다크 기본값 ─── */
+.dark {
+  --background: #0d0d0d;
+  --foreground: #E5E7EB;
+}
+
+/* ─── Editor Design Tokens ─── */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-editor-bg: #0d0d0d;
+  --color-editor-surface: #161616;
+  --color-editor-card: #1A1A1A;
+  --color-editor-border: #2A2A2A;
+  --color-editor-text: #E5E7EB;
+  --color-editor-muted: #6B7280;
+  --color-editor-title: #FFFFFF;
+  --color-editor-accent: #3B82F6;
+
+  --leading-editor: 1.8;
+
+  /* Pretendard 우선, 폴백은 동일 계열 저작권 무관 폰트 */
+  --font-sans: 'Pretendard Variable', 'Pretendard', 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ─── Global ─── */
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  transition: background-color 300ms, color 300ms;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

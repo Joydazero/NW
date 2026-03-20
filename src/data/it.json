@@ -1,370 +1,37 @@
 [
   {
-    "id": "aHR0cHM6Ly9hcnhp",
+    "id": "aHR0cHM6Ly93d3cu",
     "category": "IT",
-    "korean_title": "Flash-KMeans: 빠르고 메모리 효율적인 정확한 K-평균",
-    "original_title": "Flash-KMeans: Fast and Memory-Efficient Exact K-Means",
-    "summary": "주요 내용으로 건너뛰기 PDF HTML 보기(실험) 개요: $k$-수단은 역사적으로 주로 온라인 시스템의 일류 구성 요소가 아닌 데이터 세트 구성 또는 내장 전처리에 사용되는 오프라인 처리 기본 요소로 자리 잡았습니다. 이 작업에서 우리는 현대 AI 시스템 설계의 관점에서 이 고전적인 알고리즘을 재검토하고 $k$-수단을 온라인 프리미티브로 활성화합니다. 우리는 $k$ 수단의 기존 GPU 구현이 이론적 알고리즘의 복잡성보다는 낮은 수준의 시스템 제약으로 인해 근본적으로 병목 현상이 남아 있다는 점을 지적합니다.",
+    "korean_title": "페디캡 운전자의 영혼",
+    "original_title": "The Soul of a Pedicab Driver",
+    "summary": "Carl Etnier의 Pedicab Driver의 영혼 Pedicabbing은 나를 더 나은 사람으로 만들지 않습니다. 하지만 더 나은 사람이 되려고 노력함으로써 나는 더 나은 페디캡 운전사가 되어가고 있습니다. 이것은 제가 작년에 밟은 작은 영적 여정에 대한 이야기입니다. 부분적으로는 저의 페디카빙 활동에 자극을 받은 것입니다.",
     "tags": [
-      "엔비디아",
-      "양슈오 ["
-    ],
-    "is_ai": true,
-    "source": "arxiv.org",
-    "source_url": "https://arxiv.org/abs/2603.09229",
-    "thumbnail": "",
-    "created_at": "2026-03-20T10:52:45.968Z"
-  },
-  {
-    "id": "aHR0cHM6Ly9hcnN0",
-    "category": "IT",
-    "korean_title": "Google은 검증되지 않은 Android 앱을 사이드로드하기 위한 새로운 24시간 프로세스를 자세히 설명합니다.",
-    "original_title": "Google details new 24-hour process to sideload unverified Android apps",
-    "summary": "이 기능을 활성화하는 실제 발품 작업은 몇 초 밖에 걸리지 않지만 24시간 카운트다운으로 인해 순간적으로는 할 수 없습니다. 그런데 왜 24시간일까요? Samat에 따르면 이는 사기꾼이 피해자에게 심각한 결과를 피하기 위해 즉시 앱을 설치해야 한다고 설득하는 사회 공학 공격의 증가하는 사용에 맞서기 위해 설계되었습니다.",
-    "tags": [
-      "Google",
-      "Google",
-      "Google"
-    ],
-    "is_ai": false,
-    "source": "arstechnica.com",
-    "source_url": "https://arstechnica.com/gadgets/2026/03/google-details-new-24-hour-process-to-sideload-unverified-android-apps/",
-    "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/developer-identity-hero-1152x648.jpg",
-    "created_at": "2026-03-20T10:52:48.853Z"
-  },
-  {
-    "id": "aHR0cHM6Ly9heW9z",
-    "category": "IT",
-    "korean_title": "FFmpeg용 drawvg 필터",
-    "original_title": "drawvg filter for FFmpeg",
-    "summary": "drawvg는 비디오 프레임 위에 벡터 그래픽을 렌더링하기 위해 8.1부터 사용할 수 있는 FFmpeg 필터입니다. 렌더링은 VGS(벡터 그래픽 스크립트)라는 자체 언어로 작성된 스크립트를 실행하여 수행됩니다. 스크립트는 Cairo 라이브러리를 사용하여 래스터화되는 2D 그래픽을 설명하는 일련의 명령으로 구성됩니다.",
-    "tags": [
-      "VGS",
-      "사용자 정의 전환 또 다른 방법",
-      "카이로 도서관."
-    ],
-    "is_ai": false,
-    "source": "ayosec.github.io",
-    "source_url": "https://ayosec.github.io/ffmpeg-drawvg/",
-    "thumbnail": "",
-    "created_at": "2026-03-20T10:52:50.903Z"
-  },
-  {
-    "id": "aHR0cHM6Ly9jb2Rl",
-    "category": "IT",
-    "korean_title": "채널을 사용하여 실행 중인 세션에 이벤트 푸시 - Claude Code Docs",
-    "original_title": "Push events into a running session with channels - Claude Code Docs",
-    "summary": "답변은 AI를 사용해 생성되므로 실수가 포함될 수 있습니다.",
-    "tags": [],
-    "is_ai": true,
-    "source": "code.claude.com",
-    "source_url": "https://code.claude.com/docs/en/channels",
-    "thumbnail": "https://claude-code.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DAutomation%26appearance%3Dsystem%26title%3DPush%2Bevents%2Binto%2Ba%2Brunning%2Bsession%2Bwith%2Bchannels%26description%3DUse%2Bchannels%2Bto%2Bpush%2Bmessages%252C%2Balerts%252C%2Band%2Bwebhooks%2Binto%2Byour%2BClaude%2BCode%2Bsession%2Bfrom%2Ban%2BMCP%2Bserver.%2BForward%2BCI%2Bresults%252C%2Bchat%2Bmessages%252C%2Band%2Bmonitoring%2Bevents%2Bs%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fc5r9_6tjPMzFdDDT%252Flogo%252Flight.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dc5r9_6tjPMzFdDDT%2526q%253D85%2526s%253D78fd01ff4f4340295a4f66e2ea54903c%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fc5r9_6tjPMzFdDDT%252Flogo%252Fdark.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dc5r9_6tjPMzFdDDT%2526q%253D85%2526s%253D1298a0c3b3a1da603b190d0de0e31712%26primaryColor%3D%25230E0E0E%26lightColor%3D%2523D4A27F%26darkColor%3D%25230E0E0E%26backgroundLight%3D%2523FDFDF7%26backgroundDark%3D%252309090B&w=1200&q=100",
-    "created_at": "2026-03-20T10:52:52.309Z"
-  },
-  {
-    "id": "aHR0cHM6Ly90d2l0",
-    "category": "IT",
-    "korean_title": "자바스크립트를 사용할 수 없습니다.",
-    "original_title": "JavaScript is not available.",
-    "summary": "이 브라우저에서는 JavaScript가 비활성화되어 있는 것으로 감지되었습니다. x.com을 계속 사용하려면 JavaScript를 활성화하거나 지원되는 브라우저로 전환하세요. 지원 센터에서 지원되는 브라우저 목록을 확인할 수 있습니다.",
-    "tags": [
-      "도움말 센터."
-    ],
-    "is_ai": false,
-    "source": "twitter.com",
-    "source_url": "https://twitter.com/fynnso/status/2034706304875602030",
-    "thumbnail": "",
-    "created_at": "2026-03-20T10:52:55.688Z"
-  },
-  {
-    "id": "aHR0cHM6Ly90cnVz",
-    "category": "IT",
-    "korean_title": "전체 공개: 세 번째(및 네 번째) Azure 로그인 로그 우회가 발견되었습니다.",
-    "original_title": "Full Disclosure: A Third (and Fourth) Azure Sign-In Log Bypass Found",
-    "summary": "보이지 않는 비밀번호 스프레이. 보이지 않는 로그인. 전체 토큰이 반환되었습니다.",
-    "tags": [
-      "마이크로소프트",
-      "마이크로소프트",
-      "CNA"
-    ],
-    "is_ai": true,
-    "source": "trustedsec.com",
-    "source_url": "https://trustedsec.com/blog/full-disclosure-a-third-and-fourth-azure-sign-in-log-bypass-found",
-    "thumbnail": "https://trusted-sec.transforms.svdcdn.com/production/images/Blog-Covers/GraphGoblinAzureLoggingBypass_SEO.jpg?w=1200&h=630&q=82&auto=format&fit=crop&dm=1773775732&s=9e6e76af63714e7757fe4ae6389c0782",
-    "created_at": "2026-03-20T10:52:58.218Z"
-  },
-  {
-    "id": "aHR0cHM6Ly9kZXYu",
-    "category": "IT",
-    "korean_title": "React 앱에 링크 미리보기를 추가하는 방법(코드 예제 포함)",
-    "original_title": "How to Add Link Previews to Your React App (With Code Examples)",
-    "summary": "eatyou eatyou 게시일: 3월 20일 &#xA0; 사용자가 React 앱에서 링크를 공유하면 풍부한 미리보기가 표시됩니다. 제목, 설명, 이미지 &#x2014; 경험이 세련되고 전문적인 느낌을 줍니다. Slack, Notion 또는 Twitter를 생각해 보세요. 이 가이드에서는 두 가지 접근 방식, 즉 처음부터 구축하는 방법과 API를 사용하여 어려운 부분을 건너뛰는 방법을 보여 드리겠습니다.",
-    "tags": [
-      "API",
       "URL",
-      "지저귀다"
+      "페이스북",
+      "페이스북 그룹"
     ],
     "is_ai": false,
-    "source": "dev.to",
-    "source_url": "https://dev.to/eatyou_eatyou_d79d27e5622/how-to-add-link-previews-to-your-react-app-with-code-examples-4l6d",
-    "thumbnail": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fuqhget5pu1sasjufe385.png",
-    "created_at": "2026-03-20T10:53:00.671Z"
-  },
-  {
-    "id": "aHR0cHM6Ly9kZXYu",
-    "category": "IT",
-    "korean_title": "Google 동의 모드 설명(React + TypeScript)",
-    "original_title": "Google Consent Mode Explained (React + TypeScript)",
-    "summary": "데이터 손실 문제를 해결하기 위해(1부 참조) Google은 동의 모드를 도입했습니다. 목표는 분석 태그가 동의 전에 로드되도록 허용하는 것이지만 동작은 제한됩니다. 고급 동의 모드가 고급 동의 모드에서 수행하는 작업: 사용자가 사이트를 방문합니다. Google 태그 로드 &#x2193; 동의 상태 = 거부됨 &#x2193; 쿠키가 없는 핑 전송 이 핑에는 다음이 포함될 수 있습니다. 페이지 URL 타임스탬프 브라우저/장치 유형 대략적인 지역 그러나 쿠키는 설정되지 않습니다.",
-    "tags": [
-      "Google",
-      "Google",
-      "Google"
-    ],
-    "is_ai": false,
-    "source": "dev.to",
-    "source_url": "https://dev.to/anjab/google-consent-mode-explained-react-typescript-2ld6",
-    "thumbnail": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjcvvbscuwd4ech8orq2q.png",
-    "created_at": "2026-03-20T10:53:03.086Z"
-  },
-  {
-    "id": "aHR0cHM6Ly9kZXYu",
-    "category": "IT",
-    "korean_title": "Neon Postgres 및 Cloudflare Workers를 사용하여 TanStack Start 앱 배포",
-    "original_title": "Deploying a TanStack Start App with Neon Postgres and Cloudflare Workers",
-    "summary": "URL: https://isaacfei.com/posts/deploy-tanstack-start-neon-cloudflare 날짜: 2026-02-23 태그: TanStack Start, Cloudflare Workers, Neon, Drizzle ORM, 배포 설명: CI/CD용 GitHub 통합을 사용하여 Neon 서버리스 Postgres(Drizzle ORM을 통해)가 포함된 전체 스택 TanStack Start 애플리케이션을 Cloudflare Workers에 배포하기 위한 단계별 가이드입니다. 이 가이드는 형식이 안전한 데이터베이스 액세스를 위해 Drizzle ORM을 사용하여 서버리스 Postgres 데이터베이스인 Neon을 사용하여 전체 스택 TanStack Start 애플리케이션을 Cloudflare Workers에 배포하는 과정을 안내합니다. 데이터베이스를 설정하고, Cloudflare용 프로젝트를 구성하고, Cloudflare의 GitHub 통합을 통해 배포하여 모든 푸시가 자동으로 새 배포를 트리거하도록 하겠습니다.",
-    "tags": [
-      "클라우드플레어",
-      "GitHub",
-      "Cloudflare 작업자"
-    ],
-    "is_ai": false,
-    "source": "dev.to",
-    "source_url": "https://dev.to/isaac-fei/deploying-a-tanstack-start-app-with-neon-postgres-and-cloudflare-workers-2fc0",
-    "thumbnail": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6p8d3yihn9rjmc3jjlnv.png",
-    "created_at": "2026-03-20T10:53:07.191Z"
-  },
-  {
-    "id": "aHR0cHM6Ly9kZXYu",
-    "category": "IT",
-    "korean_title": "React에서 Discord 스타일 리치 링크 미리 보기 구축(CORS 문제 없음)",
-    "original_title": "Build Discord-Style Rich Link Previews in React (Without CORS Issues)",
-    "summary": "Discord, Twitter 또는 Slack에서 볼 수 있는 것과 같은 링크 미리 보기 카드를 만들려고 했지만 CORS 오류로 인해 즉시 차단된 적이 있습니까? &lt;meta&gt; 태그를 사용하면 브라우저의 보안 모델이 사용자의 활동을 방해할 것입니다. 이 작업은 백엔드에서 수행해야 합니다.",
-    "tags": [
-      "핵심 웹 유틸리티",
-      "지저귀다",
-      "HTML"
-    ],
-    "is_ai": false,
-    "source": "dev.to",
-    "source_url": "https://dev.to/amajid/build-discord-style-rich-link-previews-in-react-without-cors-issues-2j0o",
-    "thumbnail": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjef1o3rfcxc4p5xlia8t.png",
-    "created_at": "2026-03-20T10:53:10.950Z"
-  },
-  {
-    "id": "aHR0cHM6Ly9kZXYu",
-    "category": "IT",
-    "korean_title": "Scheduler API: 메인 스레드에서 작업 우선순위 지정",
-    "original_title": "The Scheduler API: Prioritising Work on the Main Thread",
-    "summary": "브라우저의 모든 성능 문제는 결국 동일한 범죄로 추적됩니다. 즉, 무언가가 메인 스레드를 너무 오랫동안 차단했습니다. 사용자가 버튼을 클릭했습니다. 브라우저는 클릭 핸들러를 실행하고 변경된 픽셀을 다시 칠한 후 계속 진행하기를 원했습니다.",
-    "tags": [
-      "API",
-      "DOM",
-      "DOM,"
-    ],
-    "is_ai": false,
-    "source": "logs.ishanbagchi.com",
-    "source_url": "https://dev.to/byte-sized-news/the-scheduler-api-prioritising-work-on-the-main-thread-2m66",
-    "thumbnail": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqkq0r3fb4z80zdgtcofx.png",
-    "created_at": "2026-03-20T10:53:15.427Z"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "category": "IT",
-    "korean_title": "아마존, 계단오르기 배달로봇 제조사 Rivr 인수",
-    "original_title": "Amazon acquires Rivr, maker of a stair-climbing delivery robot",
-    "summary": "간략하게 게시됨: 오후 4시 28분(PDT) &#xB7; 2026년 3월 19일 계단 오르기 배달 로봇으로 유명한 취리히 기반의 자율 로봇 스타트업 Rivr이 문앞 배달에 대한 전자상거래 거대 기업의 관심을 나타내는 거래로 Amazon에 인수되었습니다. 거래 조건은 공개되지 않았습니다. 공동 창업자이자 CEO인 Marko Bjelonic은 한때 TechCrunch에서 네 다리 달린 바퀴 달린 로봇을 &#x201C; 롤러스케이트를 탄 개,&#x201D; LinkedIn에서 인수 소식을 공유했습니다.",
-    "tags": [
-      "아마존 산업혁신펀드",
-      "Amazon의 리소스",
-      "링크드인 게시물"
-    ],
-    "is_ai": true,
-    "source": "techcrunch.com",
-    "source_url": "https://techcrunch.com/2026/03/19/amazon-acquires-rivr-maker-of-a-stair-climbing-delivery-robot/",
-    "thumbnail": "https://techcrunch.com/wp-content/uploads/2025/05/Hero-Image.jpg?resize=1200,675",
-    "created_at": "2026-03-20T10:53:20.145Z"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "category": "IT",
-    "korean_title": "Jeff Bezos는 AI로 오래된 제조 회사를 인수하고 변화시키는 데 1000억 달러를 원한다고 합니다.",
-    "original_title": "Jeff Bezos reportedly wants $100 billion to buy and transform old manufacturing firms with AI",
-    "summary": "간략하게 게시됨: 오후 3시 9분(PDT) &#xB7; 2026년 3월 19일 월스트리트저널(Wall Street Journal)이 인용한 소식통에 따르면 제프 베조스(Jeff Bezos)는 주요 산업 부문의 기업을 인수하고 궁극적으로 AI로 현대화 및 자동화하는 데 사용될 새로운 펀드를 위해 1000억 달러를 모색하고 있는 것으로 알려졌습니다. 이러한 노력은 Bezos&#x2019; AI 스타트업, 프로젝트 프로메테우스. 지난 11월 이 회사에 관여한 것으로 처음 보고된 베조스는 전 구글 임원인 빅 바자즈(Vik Bajaj)와 함께 공동 창립자 겸 공동 CEO로 재직하고 있습니다.",
-    "tags": [
-      "WSJ,",
-      "Google",
-      "월스트리트저널."
-    ],
-    "is_ai": true,
-    "source": "techcrunch.com",
-    "source_url": "https://techcrunch.com/2026/03/19/jeff-bezos-reportedly-wants-100-billion-to-buy-and-transform-old-manufacturing-firms-with-ai/",
-    "thumbnail": "https://techcrunch.com/wp-content/uploads/2020/01/GettyImages-184123956.jpg?resize=1200,800",
-    "created_at": "2026-03-20T10:53:22.460Z"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "category": "IT",
-    "korean_title": "캘리포니아 레스토랑에서 춤추는 휴머노이드 로봇이 난동을 부리자 직원들이 제지해야 했습니다.",
-    "original_title": "Employees had to restrain a dancing humanoid robot after it went wild at a California restaurant",
-    "summary": "신기술의 실존적 위협에 대해 생각할 때 우리는 일반적으로 AI가 군대에서 어떻게 사용될 수 있는지에 대한 최근 Anthropic과 Pentagon 간의 협상과 같은 것을 생각합니다. 생각만 해도 끔찍하네요 &#x2014; 인간의 개입 없이 핵무기가 터지기까지는 얼마나 걸릴까요? 우리는 이러한 잠재적인 재앙에 대해 생각하는 데 너무 많은 시간을 소비했기 때문에 우리 가운데 더 즉각적인 위험인 춤추는 로봇에 대비하지 못했습니다.",
-    "tags": [
-      "하이디라오 레스토랑",
-      "NBC 뉴스",
-      "NBC 뉴스"
-    ],
-    "is_ai": true,
-    "source": "techcrunch.com",
-    "source_url": "https://techcrunch.com/2026/03/19/restaurant-dancing-robot-went-wild-hot-pot-cupertino-haidilao-agibot/",
-    "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2253900044.jpg?resize=1200,798",
-    "created_at": "2026-03-20T10:53:26.736Z"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "category": "IT",
-    "korean_title": "Polymarket은 메이저 리그 야구 계약을 통해 지속적인 파트너십을 이어가고 있습니다 | 테크크런치",
-    "original_title": "Polymarket continues its partnership spree with a Major League Baseball deal | TechCrunch",
-    "summary": "간략하게 게시됨: 오후 12시 46분(PDT) &#xB7; 2026년 3월 19일 예측 플랫폼 폴리마켓이 파트너십을 체결했습니다. 메이저 리그 야구와 관련된 새로운 계약으로 이번 주에도 계속되는 추세입니다. MLB는 목요일에 Polymarket이 공식 예측 시장 파트너가 될 것이라고 발표했습니다. 이를 통해 사이트는 공식 리그 데이터에 독점적으로 접근할 수 있을 뿐만 아니라 자사 제품에 MLB 로고를 사용할 수 있게 되었습니다. 사이트는 또한 &#x201C;브랜드 노출&#x201D;을 받게 됩니다. 게임과 리그의 디지털 채널을 통해 발표 내용이 나와 있습니다.",
-    "tags": [
-      "팔란티르 ;",
-      "Google",
-      "CFTC"
-    ],
-    "is_ai": false,
-    "source": "techcrunch.com",
-    "source_url": "https://techcrunch.com/2026/03/19/polymarket-continues-its-partnership-spree-with-a-major-league-baseball-deal/",
-    "thumbnail": "https://techcrunch.com/wp-content/uploads/2019/04/GettyImages-1127662758.jpg?resize=1200,674",
-    "created_at": "2026-03-20T10:53:30.006Z"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "category": "IT",
-    "korean_title": "Cloudflare CEO는 2027년까지 온라인 봇 트래픽이 인간 트래픽을 초과할 것이라고 밝혔습니다.",
-    "original_title": "Online bot traffic will exceed human traffic by 2027, Cloudflare CEO says",
-    "summary": "Cloudflare CEO Matthew Prince에 따르면 봇이 웹을 장악하고 있습니다. 이번 주 오스틴에서 열린 SXSW 컨퍼런스 인터뷰에서 그는 인공지능이 성장하는 속도로 인해 2027년에는 AI 봇 트래픽이 온라인상의 인간 트래픽 양을 초과할 것이라고 말했습니다. 생성 AI 기술의 성장과 함께 웹 사용량도 증가하고 있습니다. 봇이 사용자의 답변을 얻기 위해 훨씬 더 많은 사이트를 방문할 수 있기 때문입니다. 챗봇 쿼리.",
-    "tags": [
-      "일체 포함",
-      "클라우드플레어,",
-      "넷플릭스,"
-    ],
-    "is_ai": true,
-    "source": "techcrunch.com",
-    "source_url": "https://techcrunch.com/2026/03/19/online-bot-traffic-will-exceed-human-traffic-by-2027-cloudflare-ceo-says/",
-    "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/03/matthew-Prince-sxsw-2026-GettyImages-2266003867.jpg?w=1024",
-    "created_at": "2026-03-20T10:53:33.411Z"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "category": "IT",
-    "korean_title": "Bluesky, CEO 전환 후 1억 달러 규모의 시리즈 B 발표 | 테크크런치",
-    "original_title": "Bluesky announces $100M Series B after CEO transition | TechCrunch",
-    "summary": "소셜 네트워크 블루스카이(Bluesky)는 오늘 회사가 시리즈 B 펀딩에서 1억 달러를 조달했다는 소식을 접하며 큰 변화를 준비하고 있습니다. Bain Capital Crypto가 주도한 라운드는 2025년 4월에 마감되었지만 지금까지 공개되지 않았습니다. 이번 라운드에 참여한 다른 업체로는 기존 투자자인 Alumni Ventures, True Ventures, Anthos Capital, Bloomberg Beta, Knight Foundation 등이 있습니다.",
-    "tags": [
-      "블록체인 캐피탈",
-      "나이트재단.",
-      "안토스 캐피탈,"
-    ],
-    "is_ai": false,
-    "source": "techcrunch.com",
-    "source_url": "https://techcrunch.com/2026/03/19/bluesky-announces-100m-series-b-after-ceo-transition/",
-    "thumbnail": "https://techcrunch.com/wp-content/uploads/2025/01/bluesky-GettyImages-2185142051.jpg?resize=1200,800",
-    "created_at": "2026-03-20T10:53:37.166Z"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "category": "IT",
-    "korean_title": "지열 스타트업 Fervo, '죽음의 계곡' 돌파",
-    "original_title": "Geothermal startup Fervo catapults itself over the ‘valley of death’",
-    "summary": "간략하게 게시됨: 오전 11시 26분(PDT) &#xB7; 2026년 3월 19일 강화된 지열은 데이터 센터를 통해 앞으로 몇 년간 유망한 발전을 이루었습니다. 만족할 줄 모르는 전기 수요. Fervo Energy는 이러한 순풍에 대한 거래를 성사시켰으며 회사가 &#x201C; 죽음의 계곡.&#x201D; 이 용어는 스타트업이 기술을 입증했지만 대규모로 수익을 낼 수 있음을 보여줄 만큼 충분한 자금을 조달하지 못한 경우를 설명합니다. 많은 스타트업이 이 시점을 넘기지 못하고 결국 도태됩니다.",
-    "tags": [
-      "페르보 에너지",
-      "케이프 스테이션",
-      "유타,"
-    ],
-    "is_ai": false,
-    "source": "techcrunch.com",
-    "source_url": "https://techcrunch.com/2026/03/19/geothermal-startup-fervo-catapults-itself-over-the-valley-of-death/",
-    "thumbnail": "https://techcrunch.com/wp-content/uploads/2024/02/Fervo-Energy_Project-Red_Rig-2-2048x1367-1.jpg?resize=1200,801",
-    "created_at": "2026-03-20T10:53:40.479Z"
+    "source": "www.sheldonbrown.com",
+    "source_url": "https://www.sheldonbrown.com/pedicab.html",
+    "thumbnail": "https://www.sheldonbrown.com/images/scb_eagle_contact.jpeg",
+    "created_at": "2026-03-20T11:08:16.775Z"
   },
   {
     "id": "aHR0cHM6Ly9zbWFz",
     "category": "IT",
-    "korean_title": "모달과 별도 페이지: UX 결정 트리 — Smashing Magazine",
-    "original_title": "Modal vs. Separate Page: UX Decision Tree — Smashing Magazine",
-    "summary": "모달과 페이지 중에서 선택하는 방법, 모달을 피해야 하는 시기, 중단 또는 탐색의 적절한 수준을 결정하는 방법. Vitaly의 UX 및 디자인 패턴에 대한 친숙한 비디오 코스인 Smart Interface Design Patterns에서 제공합니다. 당신은 아마 전에 거기에 가본 적이 있을 것입니다.",
+    "korean_title": "설득력 있는 디자인",
+    "original_title": "Persuasive Design",
+    "summary": "많은 제품 팀은 약한 활성화, 이탈 및 낮은 유지율을 해결하기 위해 여전히 유용성 개선과 격리된 동작 조정에 의존하고 있습니다. 결과가 정체되거나 얕은 게임화로 빠져드는 것을 볼 수 있습니다. Anders Toxboe는 오늘날의 현실에 맞게 설득력 있는 디자인을 업데이트하여 지난 10년 동안 실제로 유지된 것이 무엇인지, 그리고 현대 프레임워크가 발견과 아이디어 구상을 어떻게 안내할 수 있는지를 명확히 합니다. 10년 전만 해도 설득력 있는 디자인은 UX 분야에서 비교적 새로운 영역이었습니다.",
     "tags": [
-      "스마트 인터페이스 디자인",
-      "스마트 인터페이스 디자인",
-      "사용자 인터페이스,"
+      "심리학은 디자인에도 사용될 수 있습니다",
+      "원인과 결과부터 전체적인 시스템까지",
+      "행동 디자인"
     ],
     "is_ai": false,
     "source": "www.smashingmagazine.com",
-    "source_url": "https://smashingmagazine.com/2026/03/modal-separate-page-ux-decision-tree/",
-    "thumbnail": "https://files.smashing.media/articles/modal-separate-page-ux-decision-tree/modal-separate-page-ux-decision-tree.jpg",
-    "created_at": "2026-03-20T10:53:45.254Z"
-  },
-  {
-    "id": "aHR0cHM6Ly9zbWFz",
-    "category": "IT",
-    "korean_title": "애니메이션 대 Marvel/DC: 감정의 흐름을 담은 디지털 제품 디자인 — Smashing Magazine",
-    "original_title": "Anime vs. Marvel/DC: Designing Digital Products With Emotion In Flow — Smashing Magazine",
-    "summary": "디자인은 픽셀과 패턴만큼이나 속도와 느낌에 관한 것입니다. Alan Cohen은 흐름 속의 감정과 갈등 속의 감정을 탐구하며 Dan Da Dan과 같은 애니메이션과 James Gunn의 슈퍼맨과 같은 슈퍼히어로 영화가 어떻게 감정적 변화를 관리하고 이러한 아이디어를 제품 디자인의 실용적인 패턴으로 변환하는지 보여줍니다. 디자인은 픽셀과 패턴만이 아닙니다.",
-    "tags": [
-      "우버",
-      "우버,",
-      "감성디자인"
-    ],
-    "is_ai": false,
-    "source": "www.smashingmagazine.com",
-    "source_url": "https://smashingmagazine.com/2026/03/anime-marvel-dc-designing-digital-products-emotion-flow/",
-    "thumbnail": "https://files.smashing.media/articles/anime-marvel-dc-designing-digital-products-emotion-flow/anime-marvel-dc-designing-digital-products-emotion-flow.jpg",
-    "created_at": "2026-03-20T10:53:49.235Z"
-  },
-  {
-    "id": "aHR0cHM6Ly9zbWFz",
-    "category": "IT",
-    "korean_title": "Moment.js에서 JS Temporal API로 이동 — Smashing Magazine",
-    "original_title": "Moving From Moment.js To The JS Temporal API — Smashing Magazine",
-    "summary": "JavaScript가 시간을 처리하는 방식은 내장된 Date API에서 Moment.js에 이어 Temporal까지 크게 발전했습니다. 새로운 표준은 Moment 및 기타 라이브러리에서 발견된 제한 사항을 해결하면서 원래 Date API의 공백을 메웁니다. Joe Attardi가 실용적인 &#x201C;레시피&#x201D를 공유합니다. 순간 기반 코드를 새로운 Temporal API로 마이그레이션하기 위한 것입니다.",
-    "tags": [
-      "API",
-      "API.",
-      "ISO"
-    ],
-    "is_ai": false,
-    "source": "www.smashingmagazine.com",
-    "source_url": "https://smashingmagazine.com/2026/03/moving-from-moment-to-temporal-api/",
-    "thumbnail": "https://files.smashing.media/articles/moving-from-moment-to-temporal-api/moving-from-moment-to-temporal-api.jpg",
-    "created_at": "2026-03-20T10:53:53.530Z"
-  },
-  {
-    "id": "aHR0cHM6Ly9zbWFz",
-    "category": "IT",
-    "korean_title": "테두리 반경 너머: CSS 모서리 모양 속성이 일상적인 UI를 위해 잠금 해제하는 것 — Smashing Magazine",
-    "original_title": "Beyond border-radius: What The CSS corner-shape Property Unlocks For Everyday UI — Smashing Magazine",
-    "summary": "수년 동안 개발자들은 둥근 모서리 이외의 것을 얻기 위해 클립 경로, SVG 마스크 및 깨지기 쉬운 해결 방법을 사용하여 border-radius의 한계를 해킹해 왔습니다. 새로운 모서리 모양 속성은 마침내 이를 변경하여 경사진 모서리, 움푹 들어간 모서리 및 구불구불한 모서리로 문을 엽니다. 처음 웹사이트 구축을 시작했을 때 둥근 모서리에는 각 모서리에 하나씩, 본문에 하나씩 총 5개의 배경 이미지가 필요했고 클라이언트가 다른 반경을 요구하지 않도록 기도했습니다.",
-    "tags": [
-      "CTA",
-      "미리보기 )",
-      "미리보기 )"
-    ],
-    "is_ai": false,
-    "source": "www.smashingmagazine.com",
-    "source_url": "https://smashingmagazine.com/2026/03/beyond-border-radius-css-corner-shape-property-ui/",
-    "thumbnail": "https://files.smashing.media/articles/beyond-border-radius-css-corner-shape-property-ui/beyond-border-radius-css-corner-shape-property-ui.jpg",
-    "created_at": "2026-03-20T10:53:58.201Z"
+    "source_url": "https://smashingmagazine.com/2026/03/persuasive-design-ten-years-later/",
+    "thumbnail": "https://files.smashing.media/articles/persuasive-design-ten-years-later/persuasive-design-ten-years-later.jpg",
+    "created_at": "2026-03-20T10:54:09.822Z"
   },
   {
     "id": "aHR0cHM6Ly9zbWFz",
@@ -386,18 +53,368 @@
   {
     "id": "aHR0cHM6Ly9zbWFz",
     "category": "IT",
-    "korean_title": "설득력 있는 디자인",
-    "original_title": "Persuasive Design",
-    "summary": "많은 제품 팀은 약한 활성화, 이탈 및 낮은 유지율을 해결하기 위해 여전히 유용성 개선과 격리된 동작 조정에 의존하고 있습니다. 결과가 정체되거나 얕은 게임화로 빠져드는 것을 볼 수 있습니다. Anders Toxboe는 오늘날의 현실에 맞게 설득력 있는 디자인을 업데이트하여 지난 10년 동안 실제로 유지된 것이 무엇인지, 그리고 현대 프레임워크가 발견과 아이디어 구상을 어떻게 안내할 수 있는지를 명확히 합니다. 10년 전만 해도 설득력 있는 디자인은 UX 분야에서 비교적 새로운 영역이었습니다.",
+    "korean_title": "테두리 반경 너머: CSS 모서리 모양 속성이 일상적인 UI를 위해 잠금 해제하는 것 — Smashing Magazine",
+    "original_title": "Beyond border-radius: What The CSS corner-shape Property Unlocks For Everyday UI — Smashing Magazine",
+    "summary": "수년 동안 개발자들은 둥근 모서리 이외의 것을 얻기 위해 클립 경로, SVG 마스크 및 깨지기 쉬운 해결 방법을 사용하여 border-radius의 한계를 해킹해 왔습니다. 새로운 모서리 모양 속성은 마침내 이를 변경하여 경사진 모서리, 움푹 들어간 모서리 및 구불구불한 모서리로 문을 엽니다. 처음 웹사이트 구축을 시작했을 때 둥근 모서리에는 각 모서리에 하나씩, 본문에 하나씩 총 5개의 배경 이미지가 필요했고 클라이언트가 다른 반경을 요구하지 않도록 기도했습니다.",
     "tags": [
-      "심리학은 디자인에도 사용될 수 있습니다",
-      "원인과 결과부터 전체적인 시스템까지",
-      "행동 디자인"
+      "CTA",
+      "미리보기 )",
+      "미리보기 )"
     ],
     "is_ai": false,
     "source": "www.smashingmagazine.com",
-    "source_url": "https://smashingmagazine.com/2026/03/persuasive-design-ten-years-later/",
-    "thumbnail": "https://files.smashing.media/articles/persuasive-design-ten-years-later/persuasive-design-ten-years-later.jpg",
-    "created_at": "2026-03-20T10:54:09.822Z"
+    "source_url": "https://smashingmagazine.com/2026/03/beyond-border-radius-css-corner-shape-property-ui/",
+    "thumbnail": "https://files.smashing.media/articles/beyond-border-radius-css-corner-shape-property-ui/beyond-border-radius-css-corner-shape-property-ui.jpg",
+    "created_at": "2026-03-20T10:53:58.201Z"
+  },
+  {
+    "id": "aHR0cHM6Ly9zbWFz",
+    "category": "IT",
+    "korean_title": "Moment.js에서 JS Temporal API로 이동 — Smashing Magazine",
+    "original_title": "Moving From Moment.js To The JS Temporal API — Smashing Magazine",
+    "summary": "JavaScript가 시간을 처리하는 방식은 내장된 Date API에서 Moment.js에 이어 Temporal까지 크게 발전했습니다. 새로운 표준은 Moment 및 기타 라이브러리에서 발견된 제한 사항을 해결하면서 원래 Date API의 공백을 메웁니다. Joe Attardi가 실용적인 &#x201C;레시피&#x201D를 공유합니다. 순간 기반 코드를 새로운 Temporal API로 마이그레이션하기 위한 것입니다.",
+    "tags": [
+      "API",
+      "API.",
+      "ISO"
+    ],
+    "is_ai": false,
+    "source": "www.smashingmagazine.com",
+    "source_url": "https://smashingmagazine.com/2026/03/moving-from-moment-to-temporal-api/",
+    "thumbnail": "https://files.smashing.media/articles/moving-from-moment-to-temporal-api/moving-from-moment-to-temporal-api.jpg",
+    "created_at": "2026-03-20T10:53:53.530Z"
+  },
+  {
+    "id": "aHR0cHM6Ly9zbWFz",
+    "category": "IT",
+    "korean_title": "애니메이션 대 Marvel/DC: 감정의 흐름을 담은 디지털 제품 디자인 — Smashing Magazine",
+    "original_title": "Anime vs. Marvel/DC: Designing Digital Products With Emotion In Flow — Smashing Magazine",
+    "summary": "디자인은 픽셀과 패턴만큼이나 속도와 느낌에 관한 것입니다. Alan Cohen은 흐름 속의 감정과 갈등 속의 감정을 탐구하며 Dan Da Dan과 같은 애니메이션과 James Gunn의 슈퍼맨과 같은 슈퍼히어로 영화가 어떻게 감정적 변화를 관리하고 이러한 아이디어를 제품 디자인의 실용적인 패턴으로 변환하는지 보여줍니다. 디자인은 픽셀과 패턴만이 아닙니다.",
+    "tags": [
+      "우버",
+      "우버,",
+      "감성디자인"
+    ],
+    "is_ai": false,
+    "source": "www.smashingmagazine.com",
+    "source_url": "https://smashingmagazine.com/2026/03/anime-marvel-dc-designing-digital-products-emotion-flow/",
+    "thumbnail": "https://files.smashing.media/articles/anime-marvel-dc-designing-digital-products-emotion-flow/anime-marvel-dc-designing-digital-products-emotion-flow.jpg",
+    "created_at": "2026-03-20T10:53:49.235Z"
+  },
+  {
+    "id": "aHR0cHM6Ly9zbWFz",
+    "category": "IT",
+    "korean_title": "모달과 별도 페이지: UX 결정 트리 — Smashing Magazine",
+    "original_title": "Modal vs. Separate Page: UX Decision Tree — Smashing Magazine",
+    "summary": "모달과 페이지 중에서 선택하는 방법, 모달을 피해야 하는 시기, 중단 또는 탐색의 적절한 수준을 결정하는 방법. Vitaly의 UX 및 디자인 패턴에 대한 친숙한 비디오 코스인 Smart Interface Design Patterns에서 제공합니다. 당신은 아마 전에 거기에 가본 적이 있을 것입니다.",
+    "tags": [
+      "스마트 인터페이스 디자인",
+      "스마트 인터페이스 디자인",
+      "사용자 인터페이스,"
+    ],
+    "is_ai": false,
+    "source": "www.smashingmagazine.com",
+    "source_url": "https://smashingmagazine.com/2026/03/modal-separate-page-ux-decision-tree/",
+    "thumbnail": "https://files.smashing.media/articles/modal-separate-page-ux-decision-tree/modal-separate-page-ux-decision-tree.jpg",
+    "created_at": "2026-03-20T10:53:45.254Z"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "category": "IT",
+    "korean_title": "지열 스타트업 Fervo, '죽음의 계곡' 돌파",
+    "original_title": "Geothermal startup Fervo catapults itself over the ‘valley of death’",
+    "summary": "간략하게 게시됨: 오전 11시 26분(PDT) &#xB7; 2026년 3월 19일 강화된 지열은 데이터 센터를 통해 앞으로 몇 년간 유망한 발전을 이루었습니다. 만족할 줄 모르는 전기 수요. Fervo Energy는 이러한 순풍에 대한 거래를 성사시켰으며 회사가 &#x201C; 죽음의 계곡.&#x201D; 이 용어는 스타트업이 기술을 입증했지만 대규모로 수익을 낼 수 있음을 보여줄 만큼 충분한 자금을 조달하지 못한 경우를 설명합니다. 많은 스타트업이 이 시점을 넘기지 못하고 결국 도태됩니다.",
+    "tags": [
+      "페르보 에너지",
+      "케이프 스테이션",
+      "유타,"
+    ],
+    "is_ai": false,
+    "source": "techcrunch.com",
+    "source_url": "https://techcrunch.com/2026/03/19/geothermal-startup-fervo-catapults-itself-over-the-valley-of-death/",
+    "thumbnail": "https://techcrunch.com/wp-content/uploads/2024/02/Fervo-Energy_Project-Red_Rig-2-2048x1367-1.jpg?resize=1200,801",
+    "created_at": "2026-03-20T10:53:40.479Z"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "category": "IT",
+    "korean_title": "Bluesky, CEO 전환 후 1억 달러 규모의 시리즈 B 발표 | 테크크런치",
+    "original_title": "Bluesky announces $100M Series B after CEO transition | TechCrunch",
+    "summary": "소셜 네트워크 블루스카이(Bluesky)는 오늘 회사가 시리즈 B 펀딩에서 1억 달러를 조달했다는 소식을 접하며 큰 변화를 준비하고 있습니다. Bain Capital Crypto가 주도한 라운드는 2025년 4월에 마감되었지만 지금까지 공개되지 않았습니다. 이번 라운드에 참여한 다른 업체로는 기존 투자자인 Alumni Ventures, True Ventures, Anthos Capital, Bloomberg Beta, Knight Foundation 등이 있습니다.",
+    "tags": [
+      "블록체인 캐피탈",
+      "나이트재단.",
+      "안토스 캐피탈,"
+    ],
+    "is_ai": false,
+    "source": "techcrunch.com",
+    "source_url": "https://techcrunch.com/2026/03/19/bluesky-announces-100m-series-b-after-ceo-transition/",
+    "thumbnail": "https://techcrunch.com/wp-content/uploads/2025/01/bluesky-GettyImages-2185142051.jpg?resize=1200,800",
+    "created_at": "2026-03-20T10:53:37.166Z"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "category": "IT",
+    "korean_title": "Cloudflare CEO는 2027년까지 온라인 봇 트래픽이 인간 트래픽을 초과할 것이라고 밝혔습니다.",
+    "original_title": "Online bot traffic will exceed human traffic by 2027, Cloudflare CEO says",
+    "summary": "Cloudflare CEO Matthew Prince에 따르면 봇이 웹을 장악하고 있습니다. 이번 주 오스틴에서 열린 SXSW 컨퍼런스 인터뷰에서 그는 인공지능이 성장하는 속도로 인해 2027년에는 AI 봇 트래픽이 온라인상의 인간 트래픽 양을 초과할 것이라고 말했습니다. 생성 AI 기술의 성장과 함께 웹 사용량도 증가하고 있습니다. 봇이 사용자의 답변을 얻기 위해 훨씬 더 많은 사이트를 방문할 수 있기 때문입니다. 챗봇 쿼리.",
+    "tags": [
+      "일체 포함",
+      "클라우드플레어,",
+      "넷플릭스,"
+    ],
+    "is_ai": true,
+    "source": "techcrunch.com",
+    "source_url": "https://techcrunch.com/2026/03/19/online-bot-traffic-will-exceed-human-traffic-by-2027-cloudflare-ceo-says/",
+    "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/03/matthew-Prince-sxsw-2026-GettyImages-2266003867.jpg?w=1024",
+    "created_at": "2026-03-20T10:53:33.411Z"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "category": "IT",
+    "korean_title": "Polymarket은 메이저 리그 야구 계약을 통해 지속적인 파트너십을 이어가고 있습니다 | 테크크런치",
+    "original_title": "Polymarket continues its partnership spree with a Major League Baseball deal | TechCrunch",
+    "summary": "간략하게 게시됨: 오후 12시 46분(PDT) &#xB7; 2026년 3월 19일 예측 플랫폼 폴리마켓이 파트너십을 체결했습니다. 메이저 리그 야구와 관련된 새로운 계약으로 이번 주에도 계속되는 추세입니다. MLB는 목요일에 Polymarket이 공식 예측 시장 파트너가 될 것이라고 발표했습니다. 이를 통해 사이트는 공식 리그 데이터에 독점적으로 접근할 수 있을 뿐만 아니라 자사 제품에 MLB 로고를 사용할 수 있게 되었습니다. 사이트는 또한 &#x201C;브랜드 노출&#x201D;을 받게 됩니다. 게임과 리그의 디지털 채널을 통해 발표 내용이 나와 있습니다.",
+    "tags": [
+      "팔란티르 ;",
+      "Google",
+      "CFTC"
+    ],
+    "is_ai": false,
+    "source": "techcrunch.com",
+    "source_url": "https://techcrunch.com/2026/03/19/polymarket-continues-its-partnership-spree-with-a-major-league-baseball-deal/",
+    "thumbnail": "https://techcrunch.com/wp-content/uploads/2019/04/GettyImages-1127662758.jpg?resize=1200,674",
+    "created_at": "2026-03-20T10:53:30.006Z"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "category": "IT",
+    "korean_title": "캘리포니아 레스토랑에서 춤추는 휴머노이드 로봇이 난동을 부리자 직원들이 제지해야 했습니다.",
+    "original_title": "Employees had to restrain a dancing humanoid robot after it went wild at a California restaurant",
+    "summary": "신기술의 실존적 위협에 대해 생각할 때 우리는 일반적으로 AI가 군대에서 어떻게 사용될 수 있는지에 대한 최근 Anthropic과 Pentagon 간의 협상과 같은 것을 생각합니다. 생각만 해도 끔찍하네요 &#x2014; 인간의 개입 없이 핵무기가 터지기까지는 얼마나 걸릴까요? 우리는 이러한 잠재적인 재앙에 대해 생각하는 데 너무 많은 시간을 소비했기 때문에 우리 가운데 더 즉각적인 위험인 춤추는 로봇에 대비하지 못했습니다.",
+    "tags": [
+      "하이디라오 레스토랑",
+      "NBC 뉴스",
+      "NBC 뉴스"
+    ],
+    "is_ai": true,
+    "source": "techcrunch.com",
+    "source_url": "https://techcrunch.com/2026/03/19/restaurant-dancing-robot-went-wild-hot-pot-cupertino-haidilao-agibot/",
+    "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2253900044.jpg?resize=1200,798",
+    "created_at": "2026-03-20T10:53:26.736Z"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "category": "IT",
+    "korean_title": "Jeff Bezos는 AI로 오래된 제조 회사를 인수하고 변화시키는 데 1000억 달러를 원한다고 합니다.",
+    "original_title": "Jeff Bezos reportedly wants $100 billion to buy and transform old manufacturing firms with AI",
+    "summary": "간략하게 게시됨: 오후 3시 9분(PDT) &#xB7; 2026년 3월 19일 월스트리트저널(Wall Street Journal)이 인용한 소식통에 따르면 제프 베조스(Jeff Bezos)는 주요 산업 부문의 기업을 인수하고 궁극적으로 AI로 현대화 및 자동화하는 데 사용될 새로운 펀드를 위해 1000억 달러를 모색하고 있는 것으로 알려졌습니다. 이러한 노력은 Bezos&#x2019; AI 스타트업, 프로젝트 프로메테우스. 지난 11월 이 회사에 관여한 것으로 처음 보고된 베조스는 전 구글 임원인 빅 바자즈(Vik Bajaj)와 함께 공동 창립자 겸 공동 CEO로 재직하고 있습니다.",
+    "tags": [
+      "WSJ,",
+      "Google",
+      "월스트리트저널."
+    ],
+    "is_ai": true,
+    "source": "techcrunch.com",
+    "source_url": "https://techcrunch.com/2026/03/19/jeff-bezos-reportedly-wants-100-billion-to-buy-and-transform-old-manufacturing-firms-with-ai/",
+    "thumbnail": "https://techcrunch.com/wp-content/uploads/2020/01/GettyImages-184123956.jpg?resize=1200,800",
+    "created_at": "2026-03-20T10:53:22.460Z"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "category": "IT",
+    "korean_title": "아마존, 계단오르기 배달로봇 제조사 Rivr 인수",
+    "original_title": "Amazon acquires Rivr, maker of a stair-climbing delivery robot",
+    "summary": "간략하게 게시됨: 오후 4시 28분(PDT) &#xB7; 2026년 3월 19일 계단 오르기 배달 로봇으로 유명한 취리히 기반의 자율 로봇 스타트업 Rivr이 문앞 배달에 대한 전자상거래 거대 기업의 관심을 나타내는 거래로 Amazon에 인수되었습니다. 거래 조건은 공개되지 않았습니다. 공동 창업자이자 CEO인 Marko Bjelonic은 한때 TechCrunch에서 네 다리 달린 바퀴 달린 로봇을 &#x201C; 롤러스케이트를 탄 개,&#x201D; LinkedIn에서 인수 소식을 공유했습니다.",
+    "tags": [
+      "아마존 산업혁신펀드",
+      "Amazon의 리소스",
+      "링크드인 게시물"
+    ],
+    "is_ai": true,
+    "source": "techcrunch.com",
+    "source_url": "https://techcrunch.com/2026/03/19/amazon-acquires-rivr-maker-of-a-stair-climbing-delivery-robot/",
+    "thumbnail": "https://techcrunch.com/wp-content/uploads/2025/05/Hero-Image.jpg?resize=1200,675",
+    "created_at": "2026-03-20T10:53:20.145Z"
+  },
+  {
+    "id": "aHR0cHM6Ly9kZXYu",
+    "category": "IT",
+    "korean_title": "Scheduler API: 메인 스레드에서 작업 우선순위 지정",
+    "original_title": "The Scheduler API: Prioritising Work on the Main Thread",
+    "summary": "브라우저의 모든 성능 문제는 결국 동일한 범죄로 추적됩니다. 즉, 무언가가 메인 스레드를 너무 오랫동안 차단했습니다. 사용자가 버튼을 클릭했습니다. 브라우저는 클릭 핸들러를 실행하고 변경된 픽셀을 다시 칠한 후 계속 진행하기를 원했습니다.",
+    "tags": [
+      "API",
+      "DOM",
+      "DOM,"
+    ],
+    "is_ai": false,
+    "source": "logs.ishanbagchi.com",
+    "source_url": "https://dev.to/byte-sized-news/the-scheduler-api-prioritising-work-on-the-main-thread-2m66",
+    "thumbnail": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqkq0r3fb4z80zdgtcofx.png",
+    "created_at": "2026-03-20T10:53:15.427Z"
+  },
+  {
+    "id": "aHR0cHM6Ly9kZXYu",
+    "category": "IT",
+    "korean_title": "React에서 Discord 스타일 리치 링크 미리 보기 구축(CORS 문제 없음)",
+    "original_title": "Build Discord-Style Rich Link Previews in React (Without CORS Issues)",
+    "summary": "Discord, Twitter 또는 Slack에서 볼 수 있는 것과 같은 링크 미리 보기 카드를 만들려고 했지만 CORS 오류로 인해 즉시 차단된 적이 있습니까? &lt;meta&gt; 태그를 사용하면 브라우저의 보안 모델이 사용자의 활동을 방해할 것입니다. 이 작업은 백엔드에서 수행해야 합니다.",
+    "tags": [
+      "핵심 웹 유틸리티",
+      "지저귀다",
+      "HTML"
+    ],
+    "is_ai": false,
+    "source": "dev.to",
+    "source_url": "https://dev.to/amajid/build-discord-style-rich-link-previews-in-react-without-cors-issues-2j0o",
+    "thumbnail": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjef1o3rfcxc4p5xlia8t.png",
+    "created_at": "2026-03-20T10:53:10.950Z"
+  },
+  {
+    "id": "aHR0cHM6Ly9kZXYu",
+    "category": "IT",
+    "korean_title": "Neon Postgres 및 Cloudflare Workers를 사용하여 TanStack Start 앱 배포",
+    "original_title": "Deploying a TanStack Start App with Neon Postgres and Cloudflare Workers",
+    "summary": "URL: https://isaacfei.com/posts/deploy-tanstack-start-neon-cloudflare 날짜: 2026-02-23 태그: TanStack Start, Cloudflare Workers, Neon, Drizzle ORM, 배포 설명: CI/CD용 GitHub 통합을 사용하여 Neon 서버리스 Postgres(Drizzle ORM을 통해)가 포함된 전체 스택 TanStack Start 애플리케이션을 Cloudflare Workers에 배포하기 위한 단계별 가이드입니다. 이 가이드는 형식이 안전한 데이터베이스 액세스를 위해 Drizzle ORM을 사용하여 서버리스 Postgres 데이터베이스인 Neon을 사용하여 전체 스택 TanStack Start 애플리케이션을 Cloudflare Workers에 배포하는 과정을 안내합니다. 데이터베이스를 설정하고, Cloudflare용 프로젝트를 구성하고, Cloudflare의 GitHub 통합을 통해 배포하여 모든 푸시가 자동으로 새 배포를 트리거하도록 하겠습니다.",
+    "tags": [
+      "클라우드플레어",
+      "GitHub",
+      "Cloudflare 작업자"
+    ],
+    "is_ai": false,
+    "source": "dev.to",
+    "source_url": "https://dev.to/isaac-fei/deploying-a-tanstack-start-app-with-neon-postgres-and-cloudflare-workers-2fc0",
+    "thumbnail": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6p8d3yihn9rjmc3jjlnv.png",
+    "created_at": "2026-03-20T10:53:07.191Z"
+  },
+  {
+    "id": "aHR0cHM6Ly9kZXYu",
+    "category": "IT",
+    "korean_title": "Google 동의 모드 설명(React + TypeScript)",
+    "original_title": "Google Consent Mode Explained (React + TypeScript)",
+    "summary": "데이터 손실 문제를 해결하기 위해(1부 참조) Google은 동의 모드를 도입했습니다. 목표는 분석 태그가 동의 전에 로드되도록 허용하는 것이지만 동작은 제한됩니다. 고급 동의 모드가 고급 동의 모드에서 수행하는 작업: 사용자가 사이트를 방문합니다. Google 태그 로드 &#x2193; 동의 상태 = 거부됨 &#x2193; 쿠키가 없는 핑 전송 이 핑에는 다음이 포함될 수 있습니다. 페이지 URL 타임스탬프 브라우저/장치 유형 대략적인 지역 그러나 쿠키는 설정되지 않습니다.",
+    "tags": [
+      "Google",
+      "Google",
+      "Google"
+    ],
+    "is_ai": false,
+    "source": "dev.to",
+    "source_url": "https://dev.to/anjab/google-consent-mode-explained-react-typescript-2ld6",
+    "thumbnail": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjcvvbscuwd4ech8orq2q.png",
+    "created_at": "2026-03-20T10:53:03.086Z"
+  },
+  {
+    "id": "aHR0cHM6Ly9kZXYu",
+    "category": "IT",
+    "korean_title": "React 앱에 링크 미리보기를 추가하는 방법(코드 예제 포함)",
+    "original_title": "How to Add Link Previews to Your React App (With Code Examples)",
+    "summary": "eatyou eatyou 게시일: 3월 20일 &#xA0; 사용자가 React 앱에서 링크를 공유하면 풍부한 미리보기가 표시됩니다. 제목, 설명, 이미지 &#x2014; 경험이 세련되고 전문적인 느낌을 줍니다. Slack, Notion 또는 Twitter를 생각해 보세요. 이 가이드에서는 두 가지 접근 방식, 즉 처음부터 구축하는 방법과 API를 사용하여 어려운 부분을 건너뛰는 방법을 보여 드리겠습니다.",
+    "tags": [
+      "API",
+      "URL",
+      "지저귀다"
+    ],
+    "is_ai": false,
+    "source": "dev.to",
+    "source_url": "https://dev.to/eatyou_eatyou_d79d27e5622/how-to-add-link-previews-to-your-react-app-with-code-examples-4l6d",
+    "thumbnail": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fuqhget5pu1sasjufe385.png",
+    "created_at": "2026-03-20T10:53:00.671Z"
+  },
+  {
+    "id": "aHR0cHM6Ly90cnVz",
+    "category": "IT",
+    "korean_title": "전체 공개: 세 번째(및 네 번째) Azure 로그인 로그 우회가 발견되었습니다.",
+    "original_title": "Full Disclosure: A Third (and Fourth) Azure Sign-In Log Bypass Found",
+    "summary": "보이지 않는 비밀번호 스프레이. 보이지 않는 로그인. 전체 토큰이 반환되었습니다.",
+    "tags": [
+      "마이크로소프트",
+      "마이크로소프트",
+      "CNA"
+    ],
+    "is_ai": true,
+    "source": "trustedsec.com",
+    "source_url": "https://trustedsec.com/blog/full-disclosure-a-third-and-fourth-azure-sign-in-log-bypass-found",
+    "thumbnail": "https://trusted-sec.transforms.svdcdn.com/production/images/Blog-Covers/GraphGoblinAzureLoggingBypass_SEO.jpg?w=1200&h=630&q=82&auto=format&fit=crop&dm=1773775732&s=9e6e76af63714e7757fe4ae6389c0782",
+    "created_at": "2026-03-20T10:52:58.218Z"
+  },
+  {
+    "id": "aHR0cHM6Ly90d2l0",
+    "category": "IT",
+    "korean_title": "자바스크립트를 사용할 수 없습니다.",
+    "original_title": "JavaScript is not available.",
+    "summary": "이 브라우저에서는 JavaScript가 비활성화되어 있는 것으로 감지되었습니다. x.com을 계속 사용하려면 JavaScript를 활성화하거나 지원되는 브라우저로 전환하세요. 지원 센터에서 지원되는 브라우저 목록을 확인할 수 있습니다.",
+    "tags": [
+      "도움말 센터."
+    ],
+    "is_ai": false,
+    "source": "twitter.com",
+    "source_url": "https://twitter.com/fynnso/status/2034706304875602030",
+    "thumbnail": "",
+    "created_at": "2026-03-20T10:52:55.688Z"
+  },
+  {
+    "id": "aHR0cHM6Ly9jb2Rl",
+    "category": "IT",
+    "korean_title": "채널을 사용하여 실행 중인 세션에 이벤트 푸시 - Claude Code Docs",
+    "original_title": "Push events into a running session with channels - Claude Code Docs",
+    "summary": "답변은 AI를 사용해 생성되므로 실수가 포함될 수 있습니다.",
+    "tags": [],
+    "is_ai": true,
+    "source": "code.claude.com",
+    "source_url": "https://code.claude.com/docs/en/channels",
+    "thumbnail": "https://claude-code.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DAutomation%26appearance%3Dsystem%26title%3DPush%2Bevents%2Binto%2Ba%2Brunning%2Bsession%2Bwith%2Bchannels%26description%3DUse%2Bchannels%2Bto%2Bpush%2Bmessages%252C%2Balerts%252C%2Band%2Bwebhooks%2Binto%2Byour%2BClaude%2BCode%2Bsession%2Bfrom%2Ban%2BMCP%2Bserver.%2BForward%2BCI%2Bresults%252C%2Bchat%2Bmessages%252C%2Band%2Bmonitoring%2Bevents%2Bs%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fc5r9_6tjPMzFdDDT%252Flogo%252Flight.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dc5r9_6tjPMzFdDDT%2526q%253D85%2526s%253D78fd01ff4f4340295a4f66e2ea54903c%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fc5r9_6tjPMzFdDDT%252Flogo%252Fdark.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dc5r9_6tjPMzFdDDT%2526q%253D85%2526s%253D1298a0c3b3a1da603b190d0de0e31712%26primaryColor%3D%25230E0E0E%26lightColor%3D%2523D4A27F%26darkColor%3D%25230E0E0E%26backgroundLight%3D%2523FDFDF7%26backgroundDark%3D%252309090B&w=1200&q=100",
+    "created_at": "2026-03-20T10:52:52.309Z"
+  },
+  {
+    "id": "aHR0cHM6Ly9heW9z",
+    "category": "IT",
+    "korean_title": "FFmpeg용 drawvg 필터",
+    "original_title": "drawvg filter for FFmpeg",
+    "summary": "drawvg는 비디오 프레임 위에 벡터 그래픽을 렌더링하기 위해 8.1부터 사용할 수 있는 FFmpeg 필터입니다. 렌더링은 VGS(벡터 그래픽 스크립트)라는 자체 언어로 작성된 스크립트를 실행하여 수행됩니다. 스크립트는 Cairo 라이브러리를 사용하여 래스터화되는 2D 그래픽을 설명하는 일련의 명령으로 구성됩니다.",
+    "tags": [
+      "VGS",
+      "사용자 정의 전환 또 다른 방법",
+      "카이로 도서관."
+    ],
+    "is_ai": false,
+    "source": "ayosec.github.io",
+    "source_url": "https://ayosec.github.io/ffmpeg-drawvg/",
+    "thumbnail": "",
+    "created_at": "2026-03-20T10:52:50.903Z"
+  },
+  {
+    "id": "aHR0cHM6Ly9hcnN0",
+    "category": "IT",
+    "korean_title": "Google은 검증되지 않은 Android 앱을 사이드로드하기 위한 새로운 24시간 프로세스를 자세히 설명합니다.",
+    "original_title": "Google details new 24-hour process to sideload unverified Android apps",
+    "summary": "이 기능을 활성화하는 실제 발품 작업은 몇 초 밖에 걸리지 않지만 24시간 카운트다운으로 인해 순간적으로는 할 수 없습니다. 그런데 왜 24시간일까요? Samat에 따르면 이는 사기꾼이 피해자에게 심각한 결과를 피하기 위해 즉시 앱을 설치해야 한다고 설득하는 사회 공학 공격의 증가하는 사용에 맞서기 위해 설계되었습니다.",
+    "tags": [
+      "Google",
+      "Google",
+      "Google"
+    ],
+    "is_ai": false,
+    "source": "arstechnica.com",
+    "source_url": "https://arstechnica.com/gadgets/2026/03/google-details-new-24-hour-process-to-sideload-unverified-android-apps/",
+    "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/developer-identity-hero-1152x648.jpg",
+    "created_at": "2026-03-20T10:52:48.853Z"
+  },
+  {
+    "id": "aHR0cHM6Ly9hcnhp",
+    "category": "IT",
+    "korean_title": "Flash-KMeans: 빠르고 메모리 효율적인 정확한 K-평균",
+    "original_title": "Flash-KMeans: Fast and Memory-Efficient Exact K-Means",
+    "summary": "주요 내용으로 건너뛰기 PDF HTML 보기(실험) 개요: $k$-수단은 역사적으로 주로 온라인 시스템의 일류 구성 요소가 아닌 데이터 세트 구성 또는 내장 전처리에 사용되는 오프라인 처리 기본 요소로 자리 잡았습니다. 이 작업에서 우리는 현대 AI 시스템 설계의 관점에서 이 고전적인 알고리즘을 재검토하고 $k$-수단을 온라인 프리미티브로 활성화합니다. 우리는 $k$ 수단의 기존 GPU 구현이 이론적 알고리즘의 복잡성보다는 낮은 수준의 시스템 제약으로 인해 근본적으로 병목 현상이 남아 있다는 점을 지적합니다.",
+    "tags": [
+      "엔비디아",
+      "양슈오 ["
+    ],
+    "is_ai": true,
+    "source": "arxiv.org",
+    "source_url": "https://arxiv.org/abs/2603.09229",
+    "thumbnail": "",
+    "created_at": "2026-03-20T10:52:45.968Z"
   }
 ]
