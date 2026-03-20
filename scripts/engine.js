@@ -11,38 +11,30 @@ require('dotenv').config();
 
 const rssParser = new RSSParser();
 
-// AI Detection regex
+// AI & Impact Detection regex
 const AI_REGEX = /\b(ai|artificial intelligence|llm|gpt|chatgpt|openai|claude|gemini|machine learning|deep learning|neural network|anthropic)\b/i;
+const IMPACT_REGEX = /\b(business|acquisition|funding|invest|capital|standard|enterprise|billion|million|revenue|startup|투자|인수|합병|자본|비즈니스|표준|마켓|기업|스타트업|수익)\b/i;
 
-async function fetchHackerNews(limit = 5) {
+function isTodayUS(dateString) {
+  if (!dateString) return false;
   try {
-    console.log("Fetching Hacker News...");
-    const res = await axios.get('https://hacker-news.firebaseio.com/v0/topstories.json');
-    const topIds = res.data.slice(0, limit);
-    const articles = [];
-    for (const id of topIds) {
-      const itemRes = await axios.get(`https://hacker-news.firebaseio.com/v0/item/${id}.json`);
-      if (itemRes.data && itemRes.data.url) {
-        articles.push({
-          link: itemRes.data.url,
-          source: 'Hacker News'
-        });
-      }
-    }
-    return articles;
+    const d = new Date(dateString);
+    if (isNaN(d.getTime())) return false;
+    const formatter = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', dateStyle: 'short' });
+    return formatter.format(d) === formatter.format(new Date());
   } catch (e) {
-    console.error("HN Fetch Error:", e.message);
-    return [];
+    return false;
   }
 }
 
-async function fetchDevTo(limit = 5) {
+async function fetchDevTo(limit = 10) {
   try {
     console.log("Fetching Dev.to React...");
     const res = await axios.get(`https://dev.to/api/articles?tag=react&per_page=${limit}`);
     return res.data.map(item => ({
       link: item.url,
-      source: 'DEV.to'
+      source: 'DEV.to',
+      pubDate: item.published_at || item.created_at
     }));
   } catch (e) {
     console.error("DEV.to Fetch Error:", e.message);
@@ -50,13 +42,14 @@ async function fetchDevTo(limit = 5) {
   }
 }
 
-async function fetchRss(url, sourceName, limit = 5) {
+async function fetchRss(url, sourceName, limit = 10) {
   try {
     console.log(`Fetching RSS: ${sourceName}...`);
     const feed = await rssParser.parseURL(url);
     return feed.items.slice(0, limit).map(item => ({
       link: item.link,
-      source: sourceName
+      source: sourceName,
+      pubDate: item.pubDate
     }));
   } catch (e) {
     console.error(`RSS Fetch Error (${sourceName}):`, e.message);
@@ -79,6 +72,13 @@ async function processArticles(articles, category = 'IT') {
       const textContent = parsed.textContent || parsed.content.replace(/<[^>]*>?/gm, ' ').replace(/\s+/g, ' ').trim();
       
       const is_ai = AI_REGEX.test(parsed.title) || AI_REGEX.test(textContent);
+      
+      let impact_score = 0;
+      if (IMPACT_REGEX.test(parsed.title)) impact_score += 2;
+      if (IMPACT_REGEX.test(textContent)) impact_score += 1;
+      
+      const articleDate = item.pubDate || parsed.date_published || new Date().toISOString();
+      const is_today = isTodayUS(articleDate);
 
       const doc = nlp(textContent);
       const summaryText = doc.sentences().out('array').slice(0, 3).join(' ');
@@ -114,7 +114,10 @@ async function processArticles(articles, category = 'IT') {
         source: parsed.domain || item.source || 'Tech',
         source_url: item.link,
         thumbnail: parsed.lead_image_url || '',
-        created_at: new Date().toISOString()
+        created_at: new Date().toISOString(),
+        pub_date: articleDate,
+        is_today: is_today,
+        impact_score: impact_score
       });
       console.log(`Processed: ${parsed.title} (AI: ${is_ai})`);
     } catch (e) {
@@ -152,14 +155,13 @@ async function main() {
     return (now - createdAt) < TWO_DAYS_MS;
   });
 
-  const [hn, devto, tc, smash] = await Promise.all([
-    fetchHackerNews(7),
-    fetchDevTo(5),
-    fetchRss('https://techcrunch.com/feed/', 'TechCrunch', 7),
-    fetchRss('https://www.smashingmagazine.com/feed/', 'Smashing Magazine', 6)
+  const [devto, tc, smash] = await Promise.all([
+    fetchDevTo(12),
+    fetchRss('https://techcrunch.com/feed/', 'TechCrunch', 12),
+    fetchRss('https://www.smashingmagazine.com/feed/', 'Smashing Magazine', 12)
   ]);
 
-  let allArticles = [...hn, ...devto, ...tc, ...smash];
+  let allArticles = [...devto, ...tc, ...smash];
   
   // 중복 데이터 처리 스킵: 이미 수집된 URL은 파싱 및 변환하지 않음
   const existingUrls = new Set(filteredExisting.map(a => a.source_url));
@@ -174,8 +176,17 @@ async function main() {
   const combined = [...processedData, ...filteredExisting];
   const finalData = Array.from(new Map(combined.map(item => [item.source_url, item])).values());
   
-  // 5. 정렬 (최신순 유지용, 여기서 해두면 좋음)
-  finalData.sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
+  // 5. 정렬 (오늘자 최우선 > 비즈니스/기술표준 점수 높은순 > 최신순)
+  finalData.sort((a, b) => {
+    if (a.is_today && !b.is_today) return -1;
+    if (!a.is_today && b.is_today) return 1;
+    
+    const scoreA = a.impact_score || 0;
+    const scoreB = b.impact_score || 0;
+    if (scoreA !== scoreB) return scoreB - scoreA;
+    
+    return new Date(b.created_at).getTime() - new Date(a.created_at).getTime();
+  });
 
   // 6. 저장
   fs.writeFileSync(dataPath, JSON.stringify(finalData, null, 2));
